@@ -19,7 +19,9 @@ F1::
 
 F2::
 	caret := GetCaret()
-	ToolTip % caret.x " " caret.y
+	caretCoords := caret.x ", " caret.y
+	caretCoords := RegExReplace(caretCoords, "\.0+")
+	ToolTip %caretCoords%
 	return
 
 
