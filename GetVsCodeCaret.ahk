@@ -21,6 +21,10 @@ F2::
 	caret := GetCaret()
 	caretCoords := caret.x ", " caret.y
 	caretCoords := RegExReplace(caretCoords, "\.0+")
+			; Convert caret.x and caret.y,
+			; which are floats with zeros as the only digits in the mantissa,
+			; to integers.
+			; e.g. 100.000000 -> 100
 	ToolTip %caretCoords%
 	return
 
