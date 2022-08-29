@@ -1,7 +1,7 @@
 /**
  * ! Getting the caret coordinates via
  * ! https://github.com/zero-plusplus/vscode-operate-from-autohotkey/blob/340867b69ba8554d80490fc323f7fa69c268eaf9/demo/lib/ExecuteVsCodeCommand.ahk
- * ! doesn't work:
+ * ! doesn't work.
  */
 #Include ExecuteVsCodeCommand.ahk
 
@@ -13,7 +13,7 @@ F1::
 /**
  * * Getting the coordinates via
  * * https://www.autohotkey.com/boards/viewtopic.php?p=447147#p447147
- * * does work:
+ * * does work.
  */
 #Include Acc.ahk
 
