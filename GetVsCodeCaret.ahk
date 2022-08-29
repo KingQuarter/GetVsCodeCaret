@@ -24,7 +24,6 @@ F2::
 	ToolTip %caretCoords%
 	return
 
-
 GetDpi() {
 	return DllCall("User32.dll\GetDpiForWindow", "Ptr", WinExist("A"))
 }
