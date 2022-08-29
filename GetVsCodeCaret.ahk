@@ -11,9 +11,9 @@ F1::
     return
 
 /**
- * * Getting them via
+ * * Getting the coordinates via
  * * https://www.autohotkey.com/boards/viewtopic.php?p=447147#p447147
- * * does:
+ * * does work:
  */
 #Include Acc.ahk
 
