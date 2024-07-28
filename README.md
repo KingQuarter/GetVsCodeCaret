@@ -1,3 +1,9 @@
+## Known Issues
+
+[Caret coordinates are always "-1, -1"](https://github.com/zero-plusplus/vscode-operate-from-autohotkey/issues/17)
+
+## Credits
+
 ExecuteVsCodeCommand.ahk was copied raw from
 [here](https://github.com/zero-plusplus/vscode-operate-from-autohotkey/blob/340867b69ba8554d80490fc323f7fa69c268eaf9/demo/lib/ExecuteVsCodeCommand.ahk).
 
